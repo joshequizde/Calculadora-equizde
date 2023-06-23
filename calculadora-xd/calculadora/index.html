@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Calculadora :D</title>
+        <link type="text/css" href="estilo.css" rel="stylesheet">
+    </head>
+    <body onload="init();">
+        <video autoplay muted loop class="mivideo">
+            <source src="video.mp4.mp4" type="video/mp4">
+            Tu navegador no soporta HTML5.
+        </video>
+        <table class="calculadora">
+            <tr>
+                <td colspan="5"><span id="resultado"></span></td>
+            </tr>
+            <tr>
+                <td><button id="memory-clear">MC</button></td>
+                <td><button id="memory-plus">M+</button></td>
+                <td><button id="memory-less">M-</button></td>
+                <td><button id="memory-recall">Mr</button></td>
+                <td><button id="borrar">⌫</button></td>
+            </tr>
+            <tr>
+                <td><button id="raiz">√</button></td>
+                <td><button id="siete">7</button></td>
+                <td><button id="ocho">8</button></td>
+                <td><button id="nueve">9</button></td>
+                <td><button id="multiplicacion">x</button></td>
+            </tr>
+            <tr>
+                <td><button id="porcentaje">%</button></td>
+                <td><button id="cuatro">4</button></td>
+                <td><button id="cinco">5</button></td>
+                <td><button id="seis">6</button></td>
+                <td><button id="suma">+</button></td>
+            </tr>
+            <tr>
+                <td><button id="division">÷</button></td>
+                <td><button id="uno">1</button></td>
+                <td><button id="dos">2</button></td>
+                <td><button id="tres">3</button></td>
+                <td><button id="resta">-</button></td>
+            </tr>
+            <tr>
+                <td><button id="recetearnumeros">C</button></td>
+                <td><button id="cero">0</button></td>
+                <td><button id="punto">.</button></td>
+                <td><button id="igual">=</button></td>
+            </tr>
+        </table>
+        <script src="funcionalidad.js"></script>
+    </body>
+</html>
